@@ -1,5 +1,6 @@
 # MenuTest
 HomeWork
+```java
 package pro_1215_01;
 
 import java.util.Scanner;
@@ -7,7 +8,7 @@ import java.util.Scanner;
 public class MenuTest {
 
 	public static void main(String[] args) {
-		int num,num1=0,num2=0,num3;
+		int num,num1=0,num2=0;
 		while(num1==0) {
 		num=showLoginMenu();
 		if(num==1) {
